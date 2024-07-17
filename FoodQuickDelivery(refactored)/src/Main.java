@@ -230,7 +230,7 @@ public class Main {
    */
   public static void findDriver(Customer customer, Restuarant restuarant) {
     try {
-      File driversFile = new File("drivers.txt");
+      File driversFile = new File("drivers-info.txt");
       Scanner driversRead = new Scanner(driversFile);
 
       String idealDriver = "";
